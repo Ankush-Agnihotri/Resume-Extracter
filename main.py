@@ -6,7 +6,7 @@ def extract_text_from_pdf(pdf_path):
     return extract_text(pdf_path)
 
 start_time = time.time()
-text = extract_text_from_pdf(r'C:\Users\Ankush Agnihotri\Documents\AnkushResume.pdf')
+text = extract_text_from_pdf(r'C:\Users\path\to\document.pdf')
 print(f"Text extraction time: {time.time() - start_time} seconds")
 
 llm = input.llm()
